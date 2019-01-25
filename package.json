@@ -1,0 +1,16 @@
+{
+  "name": "BatchSnapshot",
+  "version": "1.0.0",
+  "description": "一个批量截图的脚本代码，可以自动将网址截图，成功后上传到OSS，失败则将任务上传到服务端。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "@杭城小刘",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^1.9.0",
+    "request": "^2.88.0"
+  }
+}
